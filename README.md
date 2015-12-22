@@ -2,7 +2,7 @@
 Cloud Foundry Application and demo examples
 We have a few examples we have pulled from various sources and put together ourself to show Cloud Foundry
 
-Demo include:
+#Demo include:
   - Simple PHP Hello app or script
 
 To deploy it:
@@ -10,7 +10,7 @@ To deploy it:
   - go to the directory where the php script is
       $cf login
       $cf push hello
-Here is the output of the two commands above: 
+#Here is the output of the two commands above: 
 
 BIHARPER-M-G01Y:hello biharper$ cf login
 API endpoint: https://api.system.208.90.61.92.xip.io
@@ -127,7 +127,7 @@ stack: cflinuxfs2
 buildpack: php 4.2.1
 
      state     since                    cpu    memory    disk      details   
-#0   running   2015-12-22 10:19:52 AM   0.0%   0 of 1G   0 of 1G      
+0   running   2015-12-22 10:19:52 AM   0.0%   0 of 1G   0 of 1G      
 BIHARPER-M-G01Y:hello biharper$ 
 
 
